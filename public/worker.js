@@ -1,5 +1,5 @@
 var CACHE_NAME = "pwa-task-manager";
-var urlsToCache = ["/kaveri_resume/", "/kaveri_resume/completed"];
+var urlsToCache = ["/kaveri_resume/"];
 
 // Install a service worker
 self.addEventListener("install", (event) => {
