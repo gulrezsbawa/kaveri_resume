@@ -28,9 +28,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
           navigator.serviceWorker
-            .register("worker.js", {
-              scope: "/",
-            })
+            .register("worker.js")
             .then(
               function (registration) {
                 console.log(
