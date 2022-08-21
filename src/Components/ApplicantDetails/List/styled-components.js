@@ -48,6 +48,7 @@ export const ListWrapper = styled("ul", {});
 
 export const ListItem = styled("li", ({ $theme: { sizing } }) => ({
   listStyleType: "circle",
+  marginBottom: sizing.scale300,
   "::marker": {
     color: THEME_COLOR,
     fontSize: sizing.scale700,

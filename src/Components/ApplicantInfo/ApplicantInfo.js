@@ -7,11 +7,11 @@ import {
 } from "./styled-components";
 import { HiMail } from "react-icons/hi";
 import { ImMobile2 } from "react-icons/im";
-import { BsGlobe2, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { useApplicantData } from "../../Components/Provider";
 
 export const ApplicantInfo = () => {
-  const { mail, mobile, website, linkedIn } = useApplicantData();
+  const { mail, mobile, linkedIn } = useApplicantData();
 
   const iconSize = "20px";
   const data = [
@@ -25,11 +25,11 @@ export const ApplicantInfo = () => {
       value: mobile,
       icon: <ImMobile2 size={iconSize} />,
     },
-    {
-      type: "website",
-      value: website,
-      icon: <BsGlobe2 size={iconSize} />,
-    },
+    // {
+    //   type: "website",
+    //   value: website,
+    //   icon: <BsGlobe2 size={iconSize} />,
+    // },
     {
       type: "linkedIn",
       value: linkedIn,

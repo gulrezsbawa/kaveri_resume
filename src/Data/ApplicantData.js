@@ -5,11 +5,16 @@ export const applicantData = {
     "Experienced and impactful Business Analyst with more than 6 years of experience working with a wide variety of platforms and clients.",
   mail: "kaveri0491@gmail.com",
   mobile: "+1-317-540-5175",
-  website: "kaveribawa.com",
+  // website: "kaveribawa.com",
   linkedIn: "linkedin.com/in/kaveri-bawa",
   certifications: {
     title: "CERTIFICATIONS",
     list: [
+      {
+        subTitle: "Agile Certified",
+        year: "2019",
+        details: [],
+      },
       {
         subTitle:
           "Certified HIPAA (Health Insurance Portability and Accountability Act)",
@@ -37,8 +42,8 @@ export const applicantData = {
     title: "HONORS & AWARDS",
     list: [
       {
-        subTitle: "Spot Puraskaar Award 2 Time by Director",
-        year: "2018",
+        subTitle: "Spot Award 2 Time by Director",
+        year: "2018 & 2019",
         details: [
           "For outstanding performance and consistently resolving client’s issues within defined SLA",
           "For successful release of HIX 8.6 and HIX 8.9, a next version of Health Insurance App, (for Hix Insurance Center) with extensive analysis & testing.",
@@ -48,18 +53,34 @@ export const applicantData = {
   },
   expertise: {
     title: "EXPERTISE",
-    list: ["EDI ( ANSI X12 )", "HIPAA 837"],
+    list: [
+      "EDI 834, 835, 837, 270 / 271, 276 / 277",
+      "EDI ( ANSI X12 )",
+      "HIPAA",
+      "Healthcare Industry",
+      "Scrum / Agile Framework",
+      "Claims",
+      "Provider & Networks",
+      "Mapping",
+      "Medicare & Medicade Projects",
+      "Benefit Enrollment",
+      "Use Case Development",
+      "Documentat Business Rules",
+      "User Stories",
+      "Test Strategy Preparation",
+      "Subject Matter Expert (SME)",
+    ],
   },
   skills: {
     title: "SKILLS",
     list: [
       "Critical Thinking",
       "Problem solving",
-      "Interpersonal",
       "Requirement Gathering & Analysis",
       "Gap Analysis",
       "Planning / Prioritizing",
       "Decision Making",
+      "Interpersonal",
       "Good communication",
       "Leadership",
       "Collaboration",
@@ -90,13 +111,15 @@ export const applicantData = {
         year: "2018 - Present",
         subTitle: "Senior Associate Consultant",
         details: [
-          `Owning and Operating the systems which ensures comprehensive
-             and high-quality data submissions to the states accordingly to
-             stringent data quality standards laid down by each state`,
-          `Extracting claims from database as 837 files and submitting them
-             to the state, ensuring successful file transmission`,
-          `Analyzing and processing the received response files from state
-             and resubmitting in case of rejected claims`,
+          ` Work closely in agile framework with project stakeholders to analyze and synthesize information, understand the
+          organizational context and complete business analysis activities and ultimately elicit, document and manage the requirements throughout projects end to end. `,
+          `Collaborate with the technical experts and project management for efficient Solutions design, consequent development and process improvements.`,
+          `Create AS-IS and TO-BE process flows to understand the current business processes and scope
+          of work.`,
+          `Involve with the QA team to conceptualize, determine and develop test approaches and
+          methods for unit testing, integration and functional testing, load and usability testing
+          according to the application complexity and test requirements.`,
+          `Document, clarify, and communicate the change requests with requestor and coordinate with the development & testing team to implement it.`,
         ],
       },
       {
