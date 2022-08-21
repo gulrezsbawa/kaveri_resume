@@ -1,8 +1,8 @@
 {
-  "name": "gulrez_resume",
+  "name": "kaveri_resume",
   "version": "0.4.0",
   "private": true,
-  "homepage": "https://gulrezsbawa.github.io/gulrez_resume",
+  "homepage": "https://gulrezsbawa.github.io/kaveri_resume",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
