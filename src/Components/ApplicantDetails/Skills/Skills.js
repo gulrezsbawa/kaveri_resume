@@ -3,14 +3,14 @@ import { Wrapper, Title, ListWrapper, List } from "./styled-components";
 export const Skills = () => {
   const title = "SKILLS";
   const list = [
-    "SpecBuilder",
-    "EDIFECS Application Manager",
-    "Transaction Management",
-    "MapBuilder",
-    "Autosys Tool",
-    "JIRA",
-    "SQL",
-    "Visual Studio",
+    "Critical Thinking",
+    "Problem solving",
+    "Interpersonal",
+    "Requirement Gathering & Analysis",
+    "Gap Analysis",
+    "Planning / Prioritizing",
+    "Decision Making",
+    "Good communication",
     "Leadership",
     "Collaboration",
   ];
