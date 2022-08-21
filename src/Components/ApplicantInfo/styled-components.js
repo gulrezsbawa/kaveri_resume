@@ -1,10 +1,11 @@
 import { styled } from "baseui";
+import { THEME_COLOR } from "../constant";
 
 export const Wrapper = styled("div", {
   display: "flex",
   justifyContent: "center",
   minHeight: "20px",
-  backgroundColor: "#f29e3b",
+  backgroundColor: THEME_COLOR,
   padding: "12px 12px",
   color: "#fff",
   fontSize: "18px",

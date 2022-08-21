@@ -1,4 +1,5 @@
 import { styled } from "baseui";
+import { THEME_COLOR } from "../constant";
 
 export const Body = styled("div", ({ $theme: { mediaQuery } }) => ({
   borderBottom: "1px solid #CDCDCD",
@@ -29,7 +30,7 @@ export const Designation = styled(
   "div",
   ({ $theme: { mediaQuery, sizing } }) => ({
     fontSize: sizing.scale600,
-    color: "#f29e3b",
+    color: THEME_COLOR,
     marginBottom: "12px",
     [mediaQuery.medium]: {
       fontSize: sizing.scale800,

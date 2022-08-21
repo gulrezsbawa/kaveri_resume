@@ -8,28 +8,31 @@ import {
 import { HiMail } from "react-icons/hi";
 import { ImMobile2 } from "react-icons/im";
 import { BsGlobe2, BsLinkedin } from "react-icons/bs";
+import { useApplicantData } from "../../Components/Provider";
 
 export const ApplicantInfo = () => {
+  const { mail, mobile, website, linkedIn } = useApplicantData();
+
   const iconSize = "20px";
   const data = [
     {
       type: "mail",
-      value: "kaveri0491@gmail.com",
+      value: mail,
       icon: <HiMail size={iconSize} />,
     },
     {
       type: "mobile",
-      value: "+1-317-540-5175",
+      value: mobile,
       icon: <ImMobile2 size={iconSize} />,
     },
     {
       type: "website",
-      value: "kaveribawa.com",
+      value: website,
       icon: <BsGlobe2 size={iconSize} />,
     },
     {
       type: "linkedIn",
-      value: "linkedin.com/in/kaveri-bawa",
+      value: linkedIn,
       icon: <BsLinkedin size={iconSize} />,
     },
   ];

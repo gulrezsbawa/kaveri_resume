@@ -4,12 +4,11 @@ import {
   Designation,
   BriefSummary,
 } from "./styled-components";
+import { useApplicantData } from "../../Components/Provider";
 
 export const Header = () => {
-  const applicantName = "Kaveri";
-  const designation = "Senior Business Associate";
-  const briefSummary =
-    "Experienced and impactful Business Analyst with more than 6 years of experience working with a wide variety of platforms and clients.";
+  const { applicantName, designation, briefSummary } = useApplicantData();
+
   return (
     <Body>
       <ApplicantName>{applicantName}</ApplicantName>
