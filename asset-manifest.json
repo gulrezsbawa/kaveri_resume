@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kaveri_resume/static/css/main.61ac7470.css",
-    "main.js": "/kaveri_resume/static/js/main.7b67264b.js",
+    "main.js": "/kaveri_resume/static/js/main.beaf1bdc.js",
     "index.html": "/kaveri_resume/index.html",
     "main.61ac7470.css.map": "/kaveri_resume/static/css/main.61ac7470.css.map",
-    "main.7b67264b.js.map": "/kaveri_resume/static/js/main.7b67264b.js.map"
+    "main.beaf1bdc.js.map": "/kaveri_resume/static/js/main.beaf1bdc.js.map"
   },
   "entrypoints": [
     "static/css/main.61ac7470.css",
-    "static/js/main.7b67264b.js"
+    "static/js/main.beaf1bdc.js"
   ]
 }
