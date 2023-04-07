@@ -4,7 +4,7 @@ export const applicantData = {
   briefSummary:
     "Experienced and impactful Business Analyst with more than 6 years of experience working with a wide variety of platforms and clients.",
   mail: "kaveri0491@gmail.com",
-  mobile: "+1-317-540-5175",
+  mobile: "+1-437-600-0382",
   // website: "kaveribawa.com",
   linkedIn: "linkedin.com/in/kaveri-bawa",
   certifications: {
